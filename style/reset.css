@@ -1,0 +1,13 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,h7,h8,form,fieldset,table,td,img,div,dl,dt,dd,input{margin: 0;padding:0}
+body{font-size: 12px;}
+img{border: none}
+li{list-style: none}
+input,select,textarea{outline: none;border: none;background: none}/*border外面的修饰边框*/
+textarea{resize: none}/*规定用户可以自己定义大小*/
+a{text-decoration: none;color: #656565}/*文本修饰*/
+input{border: none;}
+/*清除浮动*/
+.clearfix:after{content: "";display: block;clear: both}/*content 属性与 :before 及 :after 伪元素配合使用，来插入生成内容。*/
+.clearfix{zoom: 1;}
+.fl{float: left}
+.fr{float: right}
