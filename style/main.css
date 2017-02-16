@@ -39,3 +39,28 @@
     background-color: #FF8C00;
     color: #FFF;
 }
+/*购物车*/
+.shopCar{
+    width:145px;
+    height:35px;
+    background-color: #FF8C00;
+    margin-top: 23px;
+    font: 14px/35px "Microsoft YaHei","微软雅黑";
+    color: #FFF;
+}
+.shopText{
+    color: #FFF;
+    height: 100%;
+    width:87px;
+    border-right: #E27A00 solid 1px;
+    background: url("../images/icon/shaoIcon.jpg") 10px center no-repeat;
+    text-indent: 40px;
+}
+.shopNum{
+    width:27px;
+    height:35px;
+    border-left: #FF9C01 solid 1px;
+    background: url("../images/icon/sj.jpg") left 33px center no-repeat;
+    text-align: right;
+    padding-right: 29px;
+}
