@@ -114,28 +114,28 @@
     width: 100%;
     padding-bottom: 1px;
 }
-.shopclass_item{
+.shopClass_item{
     padding: 13px 10px;
     border-bottom: #3487F2 solid 1px;
     border-top: #5AA1FE solid 1px;
     line-height: 16px;
 }
-.shopclass_item dt{
+.shopClass_item dt{
     height: 21px;
     line-height: 1;
     overflow: hidden;
     background:url("../images/icon/shop_sj.jpg") right center no-repeat;
 }
-.shopclass_item .b{
+.shopClass_item .b{
     font: 14px/1 "Microsoft YaHei","微软雅黑";
 }
-.shopclass_item a{
+.shopClass_item a{
     color: #FFF;
 }
-.shopclass_item a:hover{
+.shopClass_item a:hover{
     text-decoration: underline;
 }
-.shopclass_item .aLink{
+.shopClass_item .aLink{
     width: 48px;
     height: 20px;
     background: url("../images/icon/aLink_bg.png") left center no-repeat;
