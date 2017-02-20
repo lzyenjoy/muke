@@ -223,7 +223,13 @@
       <option name="project" value="LOCAL" />
       <updated>1487574869356</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Class名字区分大小写 不能通过编辑器来区分">
+      <created>1487574934098</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1487574934098</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
