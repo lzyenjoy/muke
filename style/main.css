@@ -517,6 +517,102 @@
     right: 0;
     top: 0;
 }
+/*筛选*/
+.screening{
+    border-bottom: #CCC solid 1px;
+    font-family: arial, verdana, sans-serif;
+}
+.screening dt{
+    line-height: 32px;
+    width: 74px;
+    text-align: center;
+    float: left;
+    margin-right: 42px;
+}
+.limit{
+    width: 55px;
+    float: left;
+    line-height: 32px;
+}
+.screening .active{
+    background-color: #1d7AD9;
+    color: #FFF;
+}
+.screening a{
+    padding: 2px;
+}
+.screening_list{
+    line-height: 32px;
+    width: 626px;
+    float: left;
+}
+.screening_list  li{
+    width: 20%;
+    float: left;
+}
+.screen_more{
+    border: #CCC solid 1px;
+    height: 23px;
+    line-height: 23px;
+    margin-top: 4px;
+    float: left;
+    padding-right: 11px;
+    padding-left: 11px;
+    margin-right: 10px;
+}
+.screen_more a{
+    background: url("../images/icon/sj_grey.gif") right center no-repeat;
+    padding-right: 14px;
+}
+.addInfo{
+    height: 31px;
+    border: #CCC solid 1px;
+    background-color: #F5F5F5;
+}
+.add_text{
+    float: left;
+    line-height: 31px;
+    padding-left: 12px;
+    padding-right: 6px;
+}
+.addInfo .select{
+    margin-top: 4px;
+}
+.screen_text{
+    line-height: 31px;
+    padding-right: 80px;
+}
+.check{
+    position: relative;
+    top: -1px;
+    _top:4px;
+}
+.shop_number{
+    position: relative;
+    _top:4px;
+}
+.check input,.check label{
+    vertical-align: middle;
+}
+.shop_number em{
+    color: #F00;
+    font-style: normal;
+    font-weight: bold;
+}
+.addCar{
+    border: #999 solid 1px;
+    height: 12px;
+    line-height: 12px;
+    display: inline-block;
+    padding: 0 6px 0 23px;
+    background: url("../images/icon/car.jpg") 6px center no-repeat;
+}
+.screening_list_more{
+    padding-left: 0.5%;
+}
+.screening_list_more .item{
+    width: 33.3%;
+}
 
 
 
