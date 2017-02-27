@@ -569,13 +569,16 @@
     border: #CCC solid 1px;
     background-color: #F5F5F5;
 }
+.address{
+    float: left;
+}
 .add_text{
     float: left;
     line-height: 31px;
     padding-left: 12px;
     padding-right: 6px;
 }
-.addInfo .select{
+.address .select{
     margin-top: 4px;
 }
 .screen_text{
@@ -601,8 +604,8 @@
 }
 .addCar{
     border: #999 solid 1px;
-    height: 12px;
-    line-height: 12px;
+    height: 22px;
+    line-height: 22px;
     display: inline-block;
     padding: 0 6px 0 23px;
     background: url("../images/icon/car.jpg") 6px center no-repeat;
@@ -613,7 +616,87 @@
 .screening_list_more .item{
     width: 33.3%;
 }
-
+/*组件*/
+.select{
+    border: #999 solid 1px;
+    line-height: 22px;
+    height: 22px;
+    float: left;
+    background-color: #FFF;
+    padding-left: 10px;
+    padding-right: 20px;
+    position: relative;
+    z-index: 4;
+}
+.select h3{
+    font-size: 12px;
+    font-weight: normal;
+}
+.select span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 20px;
+    background: url("../images/icon/sj_blue.jpg") center center no-repeat;
+}
+.show_select{
+    position: absolute;
+    left: -1px;
+    top: 22px;
+    background-color: #FFF;
+    width: 100%;
+    border: #999 solid 1px;
+    display: none;
+}
+/*分页*/
+.page{
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.page a{
+    height: 24px;
+    display: inline-block;
+    line-height: 24px;
+    border: #CCC solid 1px;
+    padding: 0 12px;
+    margin: 0 2px;
+}
+.page h1{
+    display: inline-block;
+    margin: 0 2px;
+    padding: 0 12px;
+}
+.morePage{
+    padding-left: 14px;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+}
+.pageNum{
+    width: 29px;
+    padding: 0 3px;
+    border: #CCC solid 1px;
+    height: 24px;
+    line-height: 24px\9;
+    text-align: center;
+    margin-left: 4px;
+}
+.page_btn{
+    width: 44px;
+    height: 24px;
+    line-height: 24px;
+    background-color: #E8E8E8;
+    border: #CCC solid 1px;
+}
+.ye{
+    padding: 0 8px 0 6px;
+}
+.page a,.page span,.page input{
+    vertical-align: middle;
+    position: relative;
+}
 
 
 
