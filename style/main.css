@@ -698,6 +698,146 @@
     position: relative;
 }
 
+/*产品详情页*/
+.grey{
+    background-color: #F0F0F0;
+}
+.userPosition{
+    font-size: 0;
+    font-family: arial, verdana, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.userPosition em,.userPosition strong,.userPosition span,.userPosition a{
+    font-size: 12px;
+}
+.userPosition em{
+    font-family: normal;
+}
+.userPosition a:hover{
+    text-decoration: underline;
+}
+.description_info{
+    background-color: #FFF;
+}
+.description{
+    border: #CCC solid 1px;
+}
+.description .leftArea{
+    width: 309px;
+}
+.description .rightArea{
+    width: 688px;
+    border-left: #CCC solid 1px;
+}
+/*放大镜图片介绍div*/
+.description_imgs .big{
+    height: 340px;
+    text-align: center;
+}
+.des_sming{
+    padding-left: 1px;
+    width: 265px;
+    margin: 0 auto;
+}
+.des_sming li{
+    float: left;
+    margin-left: -1px;
+}
+.des_sming img{
+    border: #CCC solid 1px;
+}
+.des_sming .active{
+    border-color: #317EE7;
+    position: relative;
+}
+
+.des_content{
+    padding: 10px;
+}
+.des_content_tit{
+    font: bold 16px/22px "Microsoft YaHei", "微软雅黑";
+    padding: 13px 25px;
+}
+.des_content .dl{
+    margin-bottom: 8px;
+}
+.des_content .dt{
+    width: 75px;
+    float: left;
+    position: relative;
+    color: #666;
+    text-indent: 17px;
+    line-height: 25px;
+}
+.des_content .dd{
+    padding-left: 75px;
+    *padding-left: 0;
+}
+/*幕课价*/
+.des_money{
+    font-size: 18px;
+    color: #F30;
+    font-family: Verdana;
+}
+.des_money em{
+    font-style: normal;
+    font-size: 12px;
+}
+/*换购*/
+.hg{
+    padding-top: 4px;
+    display: inline-block;
+}
+.hg_icon{
+    width: 55px;
+    height: 18px;
+    display: inline-block;
+    background-position: 0 -101px;
+    color: #FFF;
+    font-style: normal;
+    text-indent: 16px;
+    line-height: 18px;
+    margin-right: 10px;
+    float: left;
+}
+.hg em{
+    float: left;
+    font-style: normal;
+    line-height: 18px;
+}
+/*送货*/
+.des_position{
+    background-color: #F2F2F2;
+    padding: 15px 0;
+}
+.theGoods{
+    line-height: 24px;
+    padding-left: 10px;
+}
+.des_content .colorSelect{
+    line-height: 35px;
+}
+.des_item{
+    color: #666;
+    padding: 9px 10px;
+    border: #CCC solid 1px;
+    float: left;
+    background-color: #FFF;
+    margin-right: 10px;
+}
+.des_item_active{
+    border-color: #317EE7;
+    color: #333;
+}
+.des_item_sm{
+    padding: 3px 7px;
+    margin-bottom: 8px;
+}
+.des_content .des_select_more{
+    line-height: 55px;
+}
+
 
 
 
@@ -711,6 +851,7 @@
 
 /*图片合并*/
 .stars,
+.hg_icon,
 .shopClass_icon{
     background-image:url(../images/icon/icon.png);
     background-repeat: no-repeat;
