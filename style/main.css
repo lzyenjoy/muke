@@ -837,7 +837,89 @@
 .des_content .des_select_more{
     line-height: 55px;
 }
-
+/*数量*/
+.des_number{
+    border: #B2B2B2 solid 1px;
+    height: 32px;
+    width: 82px;
+    float: left;
+}
+.des_number div{
+    height: 100%;
+    float: left;
+}
+.reduction,.plus{
+    width: 15px;
+    background: url("../images/icon/plus_bg.jpg") left top no-repeat;
+    line-height: 32px;
+    text-align: center;
+    color:#333;
+}
+.reduction{
+    border-right: #CCC solid 1px;
+}
+.plus{
+    border-left: #CCC solid 1px;
+}
+.des_input{
+    width: 42px;
+    background: url("../images/icon/des_input_bg.jpg") left top no-repeat;
+    padding: 0 4px;
+    overflow: hidden;
+}
+.des_input input{
+    width: 100%;
+    height: 32px;
+    line-height: 32px\9;
+    text-align: center;
+}
+.xg{
+    line-height: 32px;
+    float: left;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #656565;
+}
+.xg em{
+    color: #FB7700;
+    font-style: normal;
+}
+.des_content .des_num{
+    line-height: 32px;
+}
+/*已选择*/
+.des_select{
+    font-weight: bold;
+    margin: 22px 0 12px;
+    text-indent: 17px;
+}
+.des_select span{
+    color:#0479C9;
+}
+.shop_buy{
+    text-align: center;
+}
+.shopping_btn,.buy_btn{
+    display: inline-block;
+    width: 184px;
+    height: 48px;
+    background: url("../images/icon/buy_btn.jpg") left top no-repeat;
+}
+.line{
+    width: 1px;
+    height: 90px;
+    overflow: hidden;
+    background-color: #cCC;
+    margin: 0 40px;
+    display: inline-block;
+}
+.line,.shopping_btn,.buy_btn{
+    vertical-align: middle;
+}
+.notes{
+    color: #CCC;
+    text-indent: 17px;
+}
 
 
 
